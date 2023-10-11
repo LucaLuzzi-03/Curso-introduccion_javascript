@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,700;1,300&display=swap');
+
+
+/* seleccion universal */
+* {
+  font-family: 'Monserrat', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* seleccion por nombre de etiqueta */
+body {
+  background-color: aliceblue;
+}
+
+h1 {
+  font-size: 40px;
+  color: deeppink;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 22px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+/* seleccion por nombre de clase */
+.imagenCorazon {
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+/* seleccion por nombre de ID */
+#imagen1 {
+  width: 200px;
+  margin-right: 40px;
+}
