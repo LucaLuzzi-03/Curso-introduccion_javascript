@@ -1,28 +1,28 @@
 //? Condicionales
 
 //* If Statement
-const nombre = "Emiliano";
+const nombre = "Juan";
 const apellido = "Pérez";
 
 if (nombre == "Juan" && apellido == "Pérez") {
-    console.log("Bienvenido " + nombre + " " + apellido);
+    // console.log("Bienvenido " + nombre + " " + apellido);
 } else {
-    console.log("No eres bienvenido " + nombre + " " + apellido);
+    // console.log("No eres bienvenido " + nombre + " " + apellido);
 }
 
 
 //* Else if Statement
 if (nombre == "Juan" && apellido == "Pérez") {
-    console.log("Bienvenido " + nombre + " " + apellido + "😁");
+    // console.log("Bienvenido " + nombre + " " + apellido + "😁");
 } else if (nombre == "Pedro" && apellido == "Pérez") {
-    console.log("Bienvenido " + nombre + " " + apellido + "🥰");
+    // console.log("Bienvenido " + nombre + " " + apellido + "🥰");
 } else {
-    console.log("No eres bienvenido " + nombre + " " + apellido + "😔");
+    // console.log("No eres bienvenido " + nombre + " " + apellido + "😔");
 }
 
 
 //* Switch statement
-const edad = 14;
+const edad = 21;
 
 switch (edad) {
     case 18:
@@ -35,7 +35,7 @@ switch (edad) {
         console.log("Usted es mayor de edad 😀");
         break;
     case 21:
-        console.log("Usted es mayor de edad 😎");
+        // console.log("Usted es mayor de edad 😎");
         break;
     default:
         console.log("Usted no es mayor de edad 😣");
@@ -44,29 +44,29 @@ switch (edad) {
 
 
 //* Ternary Operator
-const edad_2 = 26;
+const edad_2 = 10;
 const soltero = false;
 
 const mayorDeEdad = edad_2 >= 18 ? "Usted es mayor de edad 😁" : "Usted no es mayor de edad 😣";
 const esSoltero = soltero === true ? 1 : 0;
 
-console.log(mayorDeEdad);
-console.log(esSoltero);
+// console.log(mayorDeEdad);
+// console.log(esSoltero);
 
 
 //? Bucles
 
 //* bucle FOR
-for (let i = 1; i <= -10; i += 2) {
-    console.log(i);
+for (let i = 0; i <= 10; i += 1) {
+    // console.log(i);
 }
 
 
 //* bucle WHILE
-let i = 10;
+let i = 11;
 
 while (i <= 10) {
-    console.log(i);
+    // console.log(i);
     i += 2;
 }
 
@@ -75,7 +75,7 @@ while (i <= 10) {
 let y = 12;
 
 do {
-    console.log(y);
+    // console.log(y);
     y++;
 } while (y <= 10);
 
@@ -84,7 +84,7 @@ do {
 const personas = ["Juan", "Pedro", "Emiliano"];
 
 for (let persona of personas) {
-    console.log(persona);
+    // console.log(persona);
 }
 
 
